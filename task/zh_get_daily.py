@@ -80,6 +80,6 @@ analysis.market_breadth(df, a_mb_name)
 
 # A 股市场宽度-申万
 df = mydb.read_from_sql('SELECT * FROM zh_stocks_sector_sw_d ORDER BY date desc;')
-a_sw_mb = path + 'data/Market-Breadth-ZH-SW.jpg'
+a_sw_mb = path + './data/Market-Breadth-ZH-SW.jpg'
 analysis.market_breadth(df, a_sw_mb)
 
