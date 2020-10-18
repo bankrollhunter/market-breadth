@@ -121,10 +121,9 @@ A 股使用 Tushare 获取，欢迎使用 https://tushare.pro/register?reg=27541
 ```
 获取数据时间比较久，请耐心等待，预计 1-2 个小时。
 + 3. 示例：
-<div>
+<div align="center">
 	<img src="./data/Market-Breadth-ZH-SW.jpg" width="500">
 </div>
-![A股市场宽度](data/Market-Breadth-ZH-SW.jpg)
 
 #### 1. 获取 美股标普500 市场宽度
 注意：美股数据获取最好使用科学上网。
