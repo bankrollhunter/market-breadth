@@ -5,7 +5,7 @@
 ### 数据格式
 使用 MySQL 存储数据，目前美股和A股各有两张表，具体表接口参加 config/sql/xxx.sql 文件，以A股为例：
 zh_stocks_info: 股票基础数据
-zh_stocks_d: 日周期数据
+zh_stocks_d: 日线周期数据
 
 安装好 mysql 并在 mysql 中运行 config/sql 目录下的文件可以创建好自己的底层表。
 
