@@ -83,9 +83,9 @@ CREATE TABLE `zh_stocks_d` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 ```
 
-用户安装好 mysql 并在 mysql 中运行 config/sql 目录下的文件可以创建好自己的底层表。
+安装好 mysql 并在 mysql 中运行 config/sql 目录下的文件可以创建好自己的底层表。
 
-另外需要让创建用户并授权，这里密码采用 `123456` ， 用户自行修改并修改配置文件 config/config.conf 中的配置项：
+另外需要让创建用户并授权，这里密码采用 `123456` ， 自行修改并修改配置文件 config/config.conf 中的配置项：
 ```SQL
 ALTER USER 'stocks'@'%' IDENTIFIED WITH mysql_native_password BY '123456';
 grant all privileges on  *.* to 'stocks'@'%';
@@ -138,8 +138,8 @@ A 股使用 Tushare 获取，欢迎使用 https://tushare.pro/register?reg=27541
 获取数据时间比较久，请耐心等待，预计 1-2 个小时。
 + 3. 美股示例在 `data/Market-Breadth-US.jpg`
 
-#### 其他
-其实在计算过程中已经计算了全市场股票数据的 破线、交叉、拐头 等数据，用户可以用 sql 在 mysql 中自行分析。
+#### 惊喜：
+在计算过程中该程序已经计算了全市场股票的 破线、交叉、拐头 等数据，您可以用 sql 在 mysql 中自行分析。
 
 #### 如果觉得对您有帮助，欢迎请我喝杯咖啡：
 
