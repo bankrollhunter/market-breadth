@@ -119,6 +119,8 @@ A 股使用 Tushare 获取，欢迎使用 https://tushare.pro/register?reg=27541
     python task/zh_get_daily.py
 ```
 获取数据时间比较久，请耐心等待，预计 1-2 个小时。
++ 3. 示例：
+![A股市场宽度](data/Market-Breadth-ZH-SW.jpg)
 
 #### 1. 获取 美股标普500 市场宽度
 注意：美股数据获取最好使用科学上网。
@@ -131,6 +133,11 @@ A 股使用 Tushare 获取，欢迎使用 https://tushare.pro/register?reg=27541
     python task/us_get_daily.py
 ```
 获取数据时间比较久，请耐心等待，预计 1-2 个小时。
++ 3. 示例：
+![美股标普500市场宽度](data/Market-Breadth-US.jpg)
 
 #### 其他
 其实在计算过程中已经计算了全市场股票数据的 破线、交叉、拐头 等数据，用户可以用 sql 在 mysql 中自行分析。
+
+#### 如果觉得对您有帮助，欢迎请我喝杯咖啡：
+![微信](other/wechatpay.jpg) ![支付宝](other/alipay.jpg)
