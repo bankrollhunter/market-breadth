@@ -25,6 +25,8 @@ A 股使用 Tushare 获取，欢迎使用 https://tushare.pro/register?reg=27541
 ```python 
     pip install tushare
 ```
+申请之后记得替换 config.conf 中的 token 配置项。
+
 美股使用 yfinance 获取：
 ```python 
     pip install yfinance
