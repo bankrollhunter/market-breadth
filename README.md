@@ -121,6 +121,9 @@ A 股使用 Tushare 获取，欢迎使用 https://tushare.pro/register?reg=27541
 ```
 获取数据时间比较久，请耐心等待，预计 1-2 个小时。
 + 3. 示例：
+<div>
+	<img src="./data/Market-Breadth-ZH-SW.jpg" width="500">
+</div>
 ![A股市场宽度](data/Market-Breadth-ZH-SW.jpg)
 
 #### 1. 获取 美股标普500 市场宽度
@@ -142,11 +145,11 @@ A 股使用 Tushare 获取，欢迎使用 https://tushare.pro/register?reg=27541
 #### 如果觉得对您有帮助，欢迎请我喝杯咖啡：
 
 + 微信：
-<div align="center">
-	<img src="./other/wechatpay.jpg" width="200">
+<div>
+	<img src="./other/wechatpay.jpg" width="250">
 </div>
 
 + 支付宝：
-<div align="center">
-	<img src="./other/alipay.jpg" width="200">
+<div>
+	<img src="./other/alipay.jpg" width="250">
 </div>
