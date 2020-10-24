@@ -3,3 +3,7 @@ bs4
 pandas
 TA-Lib
 wkhtmltopdf
+imgkit
+yfinance
+baostock
+mysql-connector-python
