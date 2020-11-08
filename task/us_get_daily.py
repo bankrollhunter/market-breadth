@@ -6,8 +6,8 @@ import sys
 path = os.path.dirname(__file__) + os.sep + '..' + os.sep
 sys.path.append(path)
 
-from tools.util import *
-from tools.mydb import *
+from ..tools.util import *
+from ..tools.mydb import *
 
 list_sql = '''
             select * from us_stocks_info

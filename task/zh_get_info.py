@@ -7,8 +7,8 @@ import sys
 path = os.path.dirname(__file__) + os.sep + '..' + os.sep
 sys.path.append(path)
 
-from tools.mydb import *
-from tools.util import *
+from ..tools.util import *
+from ..tools.mydb import *
 
 ts.set_token(config.get('tushare', 'token'))
 pro = ts.pro_api()

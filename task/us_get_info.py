@@ -7,8 +7,8 @@ import sys
 path = os.path.dirname(__file__) + os.sep + '..' + os.sep
 sys.path.append(path)
 
-from tools.util import *
-from tools.mydb import *
+from ..tools.util import *
+from ..tools.mydb import *
 
 def us_total_cap(x):
     if isinstance(x, str) and x.endswith('B'):

@@ -6,8 +6,8 @@ import sys
 path = os.path.dirname(__file__) + os.sep + '..' + os.sep
 sys.path.append(path)
 
-from tools.util import *
-from tools.mydb import *
+from ..tools.util import *
+from ..tools.mydb import *
 
 start_date = date.get_2year_ago('%Y%m%d')
 end_date = date.get_end_day('%Y%m%d')

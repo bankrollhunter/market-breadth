@@ -2,8 +2,8 @@
 
 import tushare as ts
 import time
-from tools.util.config import config
-from tools.util.date import *
+from ..util.config import config
+from ..util.date import *
 import baostock as bs
 import pandas as pd
 
